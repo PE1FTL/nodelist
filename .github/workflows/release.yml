@@ -55,7 +55,7 @@ jobs:
       - name: Build the plugin zip file
         run: |
           mkdir -p nodelist-release/nodelist
-          cp -r *.php assets includes nodelist-release/nodelist/
+          cp -r *.php assets nodelist-release/nodelist/
           cd nodelist-release
           zip -r ../${{ github.event.repository.name }}.zip .
           cd ..
