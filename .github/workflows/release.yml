@@ -3,7 +3,7 @@ name: Create Release and Increment Build Number
 on:
   push:
     branches:
-      - main  # Oder 'master', je nachdem, wie Ihr Hauptbranch heißt
+      - master  # Oder 'master', je nachdem, wie Ihr Hauptbranch heißt
 
 jobs:
   build:
